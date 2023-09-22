@@ -9,7 +9,7 @@ export default function NavbarContent() {
         setIsOpen((old) => !old);
     };
 
-    return <div className='flex items-center'>
+    return <>
         <div className="md:hidden flex items-center">
             <button
                 onClick={toggleNavbar}
@@ -32,7 +32,7 @@ export default function NavbarContent() {
                 </svg>
             </button>
         </div>
-        <div className={`md:flex ${isOpen ? 'block' : 'hidden'} flex items-center gap-5 ml-5`}>
+        <div className={`md:flex ${isOpen ? 'block' : 'hidden'} flex items-center gap-5 pl-6 ml-1 mr-auto`}>
             <Link
                 href="/"
                 className="md:mt-0 text-white hover:text-gray-300 block md:inline-block md:ml-7"
@@ -46,5 +46,5 @@ export default function NavbarContent() {
                 Countries List
             </Link>
         </div>
-    </div>
+    </>
 }
