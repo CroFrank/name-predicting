@@ -9,9 +9,8 @@ In this app you write your name and it gives you some info about your name such 
 # I used:
 
 - Nextjs - React framework for building web app
-
-* Tailwind for CSS
-* fetch API to get data from https://agify.io/
+- Tailwind for CSS
+- fetch API to get data from https://agify.io/
 
 # Try it out
 
